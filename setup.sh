@@ -54,9 +54,9 @@ sed -i.bak "s/YOUR_API_KEY_HERE/$API_KEY/g" ~/.claude-mcp-servers/gemini-collab/
 rm ~/.claude-mcp-servers/gemini-collab/server.py.bak
 
 # Install Python dependencies
-echo ""
-echo "📦 Installing Python dependencies..."
-pip3 install google-generativeai --quiet
+# echo ""
+# echo "📦 Installing Python dependencies..."
+# pip3 install google-generativeai --quiet
 
 # Remove any existing MCP configuration
 echo ""
